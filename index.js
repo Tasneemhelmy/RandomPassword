@@ -12,7 +12,7 @@ passPtn.value=pass;
 
  generatePass.onclick=function(){
     let pass="";
-    let ranpass="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#-_($!)&*={}+-~/<>?";
+    let ranpass="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#-_($!&*=+-~/>?";
     let randomLenght=rangInput.value;
     for(let i=0;i<randomLenght;i++){
         let Index=Math.floor(Math.random()*ranpass.length);
